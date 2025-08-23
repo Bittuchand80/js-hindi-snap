@@ -1,16 +1,50 @@
-let score = "Bittu"
-
+let score = 33
 // console.log(typeof score);
-// console.log(typeof(score));
+// console.log(typeof (score));
 
-let valueInNumber = 33
-
-// console.log(typeof valueInNumber);
+let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);   
 // console.log(valueInNumber);
 
-let isLoggedIn = 0
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// "33" = 33
+// "33abc" = NaN (Not a Number)
+// true = 1, flase = 0
+
+let pen = Object
+// console.log(typeof null);
+// console.log(typeof undefined);
+
+let someNumber = 722160
+let StringNumber = String(someNumber)
+// console.log(StringNumber);
+// console.log(typeof StringNumber);
+
+let isLoggedIn = 89
+let booleanIsloggedIn = Boolean(isLoggedIn)
+console.log(booleanIsloggedIn);
+
+// 1 = true, 0 = flase
+// "" = flase
+// "Bittu" = true
+// null = flase
+
+let Name = "Bittu"
+console.log(String);
+// "" = string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
