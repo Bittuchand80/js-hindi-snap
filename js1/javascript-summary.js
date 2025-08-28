@@ -47,6 +47,35 @@ let myobj = {
     //   Object  =>  object
 
 
+// Two types of memory - 1. Stak(primitive datatypes)
+//                       2. Heap(Non-primitive datatypes)
+
+let myGamername = "coc"
+let anotherGamename = myGamername
+anotherGamename = "BGMI"
+ console.log(myGamername);
+ console.log(anotherGamename);
+
+let userOne = {
+    email: "khapi01@gmail.com",
+    upi: "user@paytm"
+}
+let userTwo = userOne
+userTwo.email = "chandapurba95@gmail.com"
+userTwo.upi = "bittu@ybl"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+// console.log(usernOe.upi);
+// console.log(userTwo.upi);
+
+
+
+
+
+
+
+
 
 
 
