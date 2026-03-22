@@ -2,7 +2,7 @@
 // Primitive datatypes - string, number, Boolean, null, undefined, symbol, BigInt
 
 const score = 100
-const scoareVlue = 100.5   
+const scoareVlue = 100.5
 
 const isLoggedIn = false
 
@@ -27,24 +27,24 @@ let myobj = {
     number: 8918955240,
 }
 
- const myFunction = function(){
-     console.log("Hello world");
+const myFunction = function () {
+    console.log("Hello world");
 }
 
 //    Return type of variables in JavaScript
 // 1) Primitive Datatypes
-    //    Number => number
-    //    String  => string
-    //    Boolean  => boolean
-    //    null  => object
-    //    undefined  =>  undefined
-    //    Symbol  =>  symbol
-    //    BigInt  =>  bigint
+//    Number => number
+//    String  => string
+//    Boolean  => boolean
+//    null  => object
+//    undefined  =>  undefined
+//    Symbol  =>  symbol
+//    BigInt  =>  bigint
 
 // 2) Non-primitive Datatypes
-    //    Arrays  =>  object
-    //   Function  =>  function
-    //   Object  =>  object
+//    Arrays  =>  object
+//   Function  =>  function
+//   Object  =>  object
 
 
 // Two types of memory - 1. Stak(primitive datatypes)
@@ -53,8 +53,8 @@ let myobj = {
 let myGamername = "coc"
 let anotherGamename = myGamername
 anotherGamename = "BGMI"
- console.log(myGamername);
- console.log(anotherGamename);
+console.log(myGamername);
+console.log(anotherGamename);
 
 let userOne = {
     email: "khapi01@gmail.com",
@@ -64,10 +64,10 @@ let userTwo = userOne
 userTwo.email = "chandapurba95@gmail.com"
 userTwo.upi = "bittu@ybl"
 
-// console.log(userOne.email);
-// console.log(userTwo.email);
-// console.log(usernOe.upi);
-// console.log(userTwo.upi);
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(usernOe.upi);
+console.log(userTwo.upi);
 
 
 
