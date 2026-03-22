@@ -11,48 +11,48 @@ const JsUser = {
     isLoggedIn: true,
     LastLoginDays: ["Monday", "Wednesday"]
 }
-// console.log(JsUser.name);
-// console.log(JsUser["full name"]);
-// console.log(JsUser[mySymbol]);
+console.log(JsUser.name);
+console.log(JsUser["full name"]);
+console.log(JsUser[mySymbol]);
 
 JsUser.email = "chandapurba95@gmail.com"
 JsUser["full name"] = "Chandapurba Sahoo"
 JsUser.age = 28
 
-// console.log(JsUser);
+console.log(JsUser);
 // Object.freeze(JsUser) [freeze the object, no changes allowed]]
 // JsUser.age = 35
 // console.log(JsUser);
 
-JsUser.greeting = function() {   
+JsUser.greeting = function () {
     console.log("Hi JS User");
 }
 // console.log(JsUser.greeting());
 
-JsUser.greetingTwo = function() {  
+JsUser.greetingTwo = function () {
     return `your email is ${this.email}`;
 }
 // console.log(JsUser.greetingTwo());
 
-JsUser.getLocation = function() {
+JsUser.getLocation = function () {
     return this.location;
 }
-// console.log(JsUser.getLocation());
+console.log(JsUser.getLocation());
 
-JsUser.getLastLoginDays = function() {
+JsUser.getLastLoginDays = function () {
     return this.LastLoginDays;
 }
 // console.log(JsUser.getLastLoginDays());
 // console.log(JsUser);
 
 module.exports = JsUser
-// console.log(Object.keys(JsUser)); 
-// console.log(Object.values(JsUser));
-// console.log(Object.entries(JsUser));
-// console.log(Object.hasOwn(JsUser, 'age'))  [ ]
-// console.log(Object.hasOwn(JsUser, 'country'));
-    
+console.log(Object.keys(JsUser));
+console.log(Object.values(JsUser));
+console.log(Object.entries(JsUser));
+console.log(Object.hasOwn(JsUser, 'age'))
+console.log(Object.hasOwn(JsUser, 'country'));
 
-    
+
+
 
 
